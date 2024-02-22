@@ -1,0 +1,83 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    background: rgb(217,202,227);
+    overflow : hidden;
+    background: linear-gradient(180deg, rgba(217,202,227,1) 0%, rgba(139,64,184,1) 74%, rgba(104,3,161,1) 100%);
+    background-size: cover;
+}
+
+.outer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.container {
+    display: flex;
+}
+
+.box {
+    border : 2px solid #fff;
+    background: rgb(18,18,18);
+    background: linear-gradient(0deg, rgba(18,18,18,0.85) 14%, rgba(46,45,45,0.8337710084033614) 78%);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    margin: 0 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+    margin-bottom: 400px;
+}
+
+.box .content {
+    text-align: center;
+    padding: 20px;
+}
+
+.box h1{
+    font-family: 'Inter Bold';
+    padding-top: 40%;
+    margin-top: 10px;
+    font-size: 25px;
+    color: #fff;
+}
+
+.box p{
+    text-align : center;
+    font-family: 'Inter';
+    margin-top: 10px;
+    font-size: 15px;
+    color: #fff;
+}
+
+.box:hover {
+    transform: scale(1.05);
+}
+
+hr {
+    width: 20%;
+    border : none;
+    margin: 2px auto;
+    height: 2px;
+    background-color: rgba(255, 255, 255, 0.5); 
+}
+
+.title {
+    font-family: 'Inter Black';
+    color: #fff;
+    text-align: center;
+    font-size: 70px;
+    margin-top: 150px; 
+}

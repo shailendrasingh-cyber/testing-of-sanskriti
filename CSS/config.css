@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'Inter';
+    src: url('./Fonts/Inter-Regular.woff2');
+}
+
+@font-face {
+    font-family: 'Inter Black';
+    src: url('./Fonts/Inter-Black.woff2');
+}
+
+@font-face {
+    font-family: 'Inter Bold';
+    src: url('./Fonts/Inter-Bold.woff2');
+}
+
+::selection {
+    background-color: #7751957d;
+    color: #ffffff; 
+}
+
+/* fallback cuz css is dumb*/
+
+::-moz-selection {
+    background-color: #7751957d;
+    color: #ffffff;
+}

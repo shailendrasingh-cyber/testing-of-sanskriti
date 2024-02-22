@@ -1,0 +1,78 @@
+/* #0e101b : background */
+/* #434A85 : secondry */
+/* #71548E : tertiary */
+/* #775195: quadrary */
+
+body {
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+    font-family: 'Inter';
+    background-color: #0e101b;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+/* texty */
+.welcome-text {
+    margin-top: 10%; 
+    color: #ffffff;
+    font-size: 55px;
+    padding-left: 20px; 
+    font-family: 'Inter';
+    z-index: 2;
+}
+
+.charlie {
+    background: linear-gradient(23deg, rgb(54, 63, 136), rgb(107, 72, 141), rgb(114, 63, 153));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    filter: drop-shadow(0 0 20px rgba(0, 0, 0, 0.582));
+    font-family: 'Inter Black';
+    z-index: 2; 
+}
+
+/*abt*/
+.about-header {
+   
+    font-family: 'Inter Bold';
+    font-size: 5rem;
+    position: relative;
+    top: 100%;
+    left: 20px;
+    color: #ffffff;
+    z-index: 2; 
+}
+
+.about {
+    
+    font-family: 'Inter';
+    position: relative;
+    top: 125%;
+    left: 20px;
+    color: #ffffff;
+    z-index: 2;
+}
+
+.mtd-header {
+    font-family: 'Inter Bold';
+    font-size: 3rem;
+    position: relative;
+    top: 135%;
+    left: 20px;
+    color: #ffffff;
+    z-index: 2; 
+}
+
+/*grad*/
+
+.bravo {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: rgb(45,52,110);
+    background: linear-gradient(0deg, rgba(45,52,110,0) 12%, rgba(103,25,182,0.9122242647058824) 43%, rgba(127,79,175,1) 83%);
+    z-index: -1;
+    border-radius: 12px 12px 12px 12px;
+}
